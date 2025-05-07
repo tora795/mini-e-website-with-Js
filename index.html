@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>E-Commerce Website</h1>
+    </header>
+    
+    <main>
+        <div class="container">
+            <div class="product">
+                <h2>iphone-15</h2>
+                <p id="price">$999</p>
+                <button class="addBtn" data-name ='iphone-15' data-price="999">add to curt</button>
+            </div>
+            <div class="product">
+                <h2>Galaxy s24</h2>
+                <p id="price2">$799</p>
+                <button class="addBtn" data-name ='Galaxy s24' data-price="799">add to curt</button>
+            </div>
+            <div class="product">
+                <h2>Google 7 Pixel</h2>
+                <p id="price3">$699</p>
+                <button class="addBtn" data-name ='Google 7 Pixel' data-price="699">add to curt</button>
+            </div>
+            
+        </div>
+        <h2 style="text-align: center;">Shopping curt</h2>
+    </main>
+    
+
+    <footer>
+        <ul id="curt-items">
+
+        </ul>
+        <p>price:$ <span id="total-price">0</span></p>
+        <button id="buyNow">Buy now</button>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
